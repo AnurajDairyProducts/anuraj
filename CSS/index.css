@@ -36,7 +36,7 @@
 
 .ordernow{
     position:fixed;
-    left:1rem;
+    left:0.6rem;
     top:5rem;
     width: 8%;
     z-index: 500;
