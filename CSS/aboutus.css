@@ -16,7 +16,7 @@ body{
     padding:1rem;margin:1rem;
 }
 
-p:hover,h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, h7:hover{
+p:hover,h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, h7:hover, hr:hover{
     color:black;
 }
 

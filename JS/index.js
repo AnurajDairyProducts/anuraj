@@ -10,4 +10,9 @@ $(document).ready(function(){
     $("#menu").on("click",function(){
        $("#icons").toggle();
     });
+
+    $(".btn").on("click",function(){
+        $(".btn").removeClass("active");
+        $(this).addClass("active");
+    });
 });

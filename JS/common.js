@@ -9,7 +9,6 @@ function filterSelection(c) {
         if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
     }
 }
-
 // Show filtered elements
 function w3AddClass(element, name) {
     var i, arr1, arr2;
@@ -36,8 +35,8 @@ function w3RemoveClass(element, name) {
 }
 
 // Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
+var btnContainer = $("#myBtnContainer ");
+var btns = $("#myBtnContainer .btn");
 for (var i = 0; i < btns.length; i++) {
     btns[i].addEventListener("click", function(){
         var current = document.getElementsByClassName("active");

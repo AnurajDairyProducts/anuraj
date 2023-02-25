@@ -216,3 +216,10 @@ section .section-title {
     box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
     transform: translateY(0);
 }
+
+.carousel-caption:hover{
+    background: #121FCF;
+    background: repeating-radial-gradient(circle farthest-corner at center center, #121FCF 0%, #CF1512 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
